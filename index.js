@@ -1,6 +1,6 @@
 const searchBtn = document.getElementById('search-btn');
 const mealList = document.getElementById('meal');
-const mealDeatilsContent = document.querySelector('_meal-details-content');
+const mealDetailsContent = document.querySelector('_meal-details-content');
 const recipeCloseBtn = document.getElementById('recipe-close-btn');
 
 
