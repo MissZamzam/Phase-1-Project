@@ -7,6 +7,7 @@ const recipeCloseBtn = document.getElementById('recipe-close-btn');
 
 //event listeners
 searchBtn.addEventListener('click', getMealList);
+mealList.addEventListener('click', getMealRecipe);
 
 
 // get meal list that matches with the ingredients
@@ -15,8 +16,7 @@ function getMealList(){
     fetch(`https://www.themealdb.com/api/json/v1/1/filter.php?i=${searchInputTxt}`)
     .then(response => response.json())
     .then(data => {
-        let html = " ";
-        if(data.meals){
+        let html = " ";{
             data.meals.forEach(meal => {
                 html += `
                     <div class = "meal-item" data-id = "${meal.idMeal}">
@@ -31,8 +31,14 @@ function getMealList(){
                 `;
                 
             });
+          
         }
         mealList.innerHTML = html;
     })
 
+}
+//get recipe of meal
+function getMealRecipe(e){
+e.prevebtDefault();
+console.log(e.target);
 }

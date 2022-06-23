@@ -283,14 +283,7 @@ nav{
     opacity: 0.8;
 }
 
-/*  */
-.notFound{
-    grid-template-columns: 1fr!important;
-    color: var(--tenne-tawny);
-    font-size: 1.8rem;
-    font-weight: 600;
-    width: 100%;
-}
+
 .about{
     text-align: center;
     margin: auto;
