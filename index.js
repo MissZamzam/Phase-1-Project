@@ -18,5 +18,4 @@ function getMealList(){
         console.log(data);
     })
 
-
 }
