@@ -45,6 +45,7 @@ if(e.target.classList.contains('recipe-btn')){
     fetch('https://www.themealdb.com/api/json/v1/1/lookup.php?i=${mealItem.dataset.id}')
     .then(response => response.json())
     .then(data => mealRecipeModal(data.meals));
+    
        
     }
 }
