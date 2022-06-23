@@ -1,6 +1,7 @@
+
 const searchBtn = document.getElementById('search-btn');
 const mealList = document.getElementById('meal');
-const mealDetailsContent = document.querySelector('_meal-details-content');
+const mealDetailsContent = document.querySelector('.meal-details-content');
 const recipeCloseBtn = document.getElementById('recipe-close-btn');
 
 
@@ -8,13 +9,14 @@ const recipeCloseBtn = document.getElementById('recipe-close-btn');
 searchBtn.addEventListener('click', getMealList);
 
 
-//get meal list that matches with ingredients
+// get meal list that matches with the ingredients
 function getMealList(){
     let searchInputTxt = document.getElementById('search-input').value.trim();
-    fetch('www.themealdb.com/api/json/v1/1/filter.php?i=egg')
+    fetch(`https://www.themealdb.com/api/json/v1/1/filter.php?i=${searchInputTxt}`)
     .then(response => response.json())
     .then(data => {
         console.log(data);
     })
+
 
 }
