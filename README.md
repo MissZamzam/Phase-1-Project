@@ -10,6 +10,7 @@ PROBLEM STATEMENT
 
 -There are people who have never been exposed to other cuisines apart from their local meals
 
+
 SOLUTION STATEMENT
 
 -Readily available recipes for inexperienced cooks at a click
@@ -23,6 +24,7 @@ My Expectations for the users
 -To view all recipes in details
 
 -And finally to get inspired and prepare enjoyable meals
+
 
 DESIGN
 
@@ -42,16 +44,18 @@ FEATURES
 
  6.Close recipe button.Once viewed the user can close that page and proceed to the next meal.
 
+
  Technologies Used
 
  Git-for version control
  
  Github for storing the projects codes
 
+
  Languages
 
  HTML
 
  CSS
- 
+
  JAVASCRIPT
