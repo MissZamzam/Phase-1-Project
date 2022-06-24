@@ -21,9 +21,11 @@ My Expectations for the users
 -And finally to get inspired and prepare enjoyable meals
 
 DESIGN
+
 It's a user friendly website that provides information about recipes in a readable and eye-catching way.
 
 FEATURES
+
  1.The nav bar that contains About,Tips and Contact which are all bookmarked at the second half of the page
  2.The search bar.This is where the user type in the ingredient to find get the recipes
  3.Search results feature,this is where the user gets all the available recipes after searching an ingredient.
@@ -37,6 +39,7 @@ FEATURES
  Github for storing the projects codes
 
  Languages
+
  HTML
  CSS
  JAVASCRIPT
