@@ -11,13 +11,14 @@ body{
     font-size: 1.05rem;
     line-height: 1.6;
     font-family: 'Poppins', sans-serif;
+
 }
 
 nav{
     width: 100%;
     margin: 20px auto;
     align-items: center;
-    background-color: rgba(87, 9, 9, 0.79);
+    background-color: #985f7c;
     padding: 8px;
 }
 .nav-links{
@@ -39,10 +40,11 @@ nav{
 .title{
     font-size: 2rem;
     margin-bottom: 60px;
-    background-color: rgba(87, 9, 9, 0.79);
-    color: #fff;
+    /* background-color: #cead39 ; */
+    color: #985f7c;
     padding: 30px;
-    border-radius: 15px 50px;
+    border-radius: 20px;
+    border: #985f7c 1px solid;
 }
 
 .meal-wrapper{
@@ -69,26 +71,26 @@ nav{
     font-size: 1.1rem;
     font-family: inherit;
     outline: 0;
-    border: 1px solid rgba(87, 9, 9, 0.79);
+    border: 1px solid #985f7c;
 
     color: var(--tenne-tawny);
     border-top-left-radius: 2rem;
     border-bottom-left-radius: 2rem;
 }
 .search-control::placeholder{
-    color: rgba(87, 9, 9, 0.79);
+    color: #985f7c;
 }
 .search-btn{
     width: 55px;
     height: 55px;
     font-size: 1.8rem;
-    background: rgba(87, 9, 9, 0.79);
+    background: #985f7c;
     color: #fff;
     border: none;
     
 }
 .search-btn:hover{
-    background: rgba(87, 9, 9, 0.79);
+    background: #C37B89;
 }
 .meal-result{
     margin-top: 4rem;
@@ -115,7 +117,7 @@ nav{
 .recipe-btn{
     text-decoration: none;
     color: #fff;
-    background: rgba(87, 9, 9, 0.79);
+    background: #d79a50;
     font-weight: 500;
     font-size: 1.1rem;
     padding: 0.75rem 0;
@@ -137,7 +139,7 @@ nav{
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%); 
     color: #fff;
-    background: rgba(87, 9, 9, 0.79);
+    background: #cead39;
     border-radius: 1rem;
     width: 90%;
     height: 90%;
@@ -194,16 +196,21 @@ nav{
     font-weight: 600;
     width: 100%;
 }
-
+.title1{
+    color: #985f7c;
+}
 
 .about{
     border-radius: 1rem;
-    box-shadow: 10px 0px 12px 12px rgba(87, 9, 9, 0.79);
+    border: solid 1px #985f7c;
     text-align: center;
-    margin: auto;
+    margin: 10px 20px;
+    color: #985f7c;
+    padding: 20px;
 }
 .paragraph{
     justify-content: center;
+    
 }
 .tip2{
     text-align: center;
@@ -211,21 +218,24 @@ nav{
   
   .tips{
     border-radius: 1rem;
-    box-shadow: 10px 0px 12px 12px rgba(87, 9, 9, 0.79);
+    border: solid 1px #985f7c;
     margin: 80px;
+    padding: 10px;
     padding-left: 40px;
+    color: #985f7c;
+
 
   }
   
 footer{
-    border-radius: 1rem;
+    /* border-radius: 1rem; */
     overflow: hidden;
-    box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.79);
+    box-shadow: 0 4px 21px -12px #985f7c;
     margin: 2rem 0;
 }
 .footer-links{
     width: 100%;
-    background-color: rgba(87, 9, 9, 0.79);
+    background-color: #985f7c;
     text-align: center;
 }
 .footer-links ul li{
