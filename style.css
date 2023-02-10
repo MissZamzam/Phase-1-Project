@@ -87,6 +87,7 @@ nav{
     background: #985f7c;
     color: #fff;
     border: none;
+    cursor: pointer;
     
 }
 .search-btn:hover{
